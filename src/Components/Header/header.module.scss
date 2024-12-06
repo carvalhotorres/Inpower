@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.menu{
+    width: 100%;
+    height: 137px;
+    background: linear-gradient(to right, #001B2F, #005695);
+    display: flex;
+    justify-content: space-between; 
+    padding: 0 2rem;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    color: #FFFFFF;
+    margin-top: -16px;
+}
+
+.box1 .titulo{
+    margin-top: 1.90vw;
+}
+.logo{
+    width: 5.20vw;
+}
+.box2{
+    width: 30%;
+}
+
+.box3{
+    position: relative;
+    display: flex;
+
+    @media (max-width:794px) {
+        display: none;
+    }
+}
+
+.pesquisa{
+    border: #FFFFFF 2px solid;
+    border-radius: 20px;
+    background-color: transparent;
+    width: 13rem;
+    height: 2.50rem;
+    outline: none;
+    padding-left: 12px;
+    color: #FFFFFF;
+}
+.pesquisa::placeholder{
+    color: #FFFFFF;
+    padding: 0 0.67rem;
+    text-align: left;
+    font-size: 13px;
+}
+.Lupa{
+    position: absolute;
+    right: 9%;
+    top: 26%;
+    width: 1.30vw;
+    height: 1.24rem;
+}
+.box2{
+    ul{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        gap: 19px;
+    }
+    a{
+        color: #FFFFFF;
+    }
+}
